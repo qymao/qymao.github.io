@@ -1,0 +1,318 @@
+/* ========================================
+   Responsive Design (Ultra Compact Version)
+   ======================================== */
+
+/* Tablet devices */
+@media (max-width: 1024px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-section {
+        padding: 1.5vh 0;
+    }
+
+    .profile-content {
+        gap: 1.2rem;
+        /* 减少间距 */
+    }
+
+    .profile-image img {
+        width: 100px;
+        /* 进一步减少 */
+        height: 100px;
+    }
+
+    .interests-grid {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        /* 减少最小宽度 */
+        gap: 1.2rem;
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 1.8rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.9rem;
+    }
+
+    .hero-section {
+        padding: 1vh 0;
+    }
+
+    .hero-description {
+        font-size: 0.85rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero-links {
+        gap: 0.6rem;
+        flex-wrap: wrap;
+    }
+
+    .hero-link {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.8rem;
+        min-width: auto;
+    }
+
+    .content-section {
+        padding: 1.5vh 0;
+        /* 减少内容区域间距 */
+    }
+
+    .section-title {
+        font-size: 1.4rem;
+        /* 减少标题大小 */
+        margin-bottom: 1rem;
+    }
+
+    .profile-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .profile-image img {
+        width: 80px;
+        /* 移动端进一步减少 */
+        height: 80px;
+    }
+
+    .profile-card {
+        padding: 1rem;
+        /* 减少卡片内边距 */
+    }
+
+    .profile-text h2 {
+        font-size: 1.1rem;
+    }
+
+    .profile-text p {
+        font-size: 0.85rem;
+    }
+
+    .interests-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .interest-card {
+        padding: 1rem 0.8rem;
+    }
+
+    .interest-icon {
+        font-size: 1.8rem;
+    }
+
+    .interest-title {
+        font-size: 1rem;
+    }
+
+    .paper-links {
+        flex-direction: column;
+    }
+
+    .paper-card {
+        padding: 1.2rem;
+    }
+
+    .paper-title {
+        font-size: 1rem;
+    }
+
+    .news-compact {
+        padding: 0.5rem;
+        /* 移动端减少内边距 */
+    }
+
+    .news-compact-item {
+        padding: 0.25rem 0;
+        /* 移动端减少内边距 */
+        font-size: 0.7rem;
+        /* 移动端减少字体 */
+        gap: 0.4rem;
+    }
+
+    .news-compact-year {
+        min-width: 25px;
+        /* 移动端减少宽度 */
+        font-size: 0.65rem;
+        /* 移动端减少字体 */
+    }
+
+    .news-compact-content {
+        font-size: 0.7rem;
+        /* 移动端减少字体 */
+        line-height: 1.2;
+    }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 1.6rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.85rem;
+    }
+
+    .hero-description {
+        font-size: 0.8rem;
+    }
+
+    .hero-section {
+        padding: 0.8vh 0;
+    }
+
+    .hero-links {
+        gap: 0.4rem;
+        justify-content: center;
+    }
+
+    .hero-link {
+        padding: 0.35rem 0.7rem;
+        font-size: 0.75rem;
+        flex: 1;
+        min-width: 0;
+        text-align: center;
+    }
+
+    .content-section {
+        padding: 1vh 0;
+        /* 进一步减少 */
+    }
+
+    .section-title {
+        font-size: 1.2rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .profile-image img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .profile-card {
+        padding: 0.8rem;
+    }
+
+    .profile-text h2 {
+        font-size: 1rem;
+    }
+
+    .profile-text p {
+        font-size: 0.8rem;
+    }
+
+    .paper-card {
+        padding: 1rem;
+    }
+
+    .paper-title {
+        font-size: 0.95rem;
+    }
+
+    .interest-card {
+        padding: 0.8rem 0.6rem;
+    }
+
+    .interest-icon {
+        font-size: 1.5rem;
+    }
+
+    .interest-title {
+        font-size: 0.95rem;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    /* 小屏幕新闻样式 */
+    .news-compact {
+        padding: 0.4rem;
+    }
+
+    .news-compact-item {
+        padding: 0.2rem 0;
+        font-size: 0.65rem;
+        gap: 0.3rem;
+    }
+
+    .news-compact-year {
+        min-width: 22px;
+        font-size: 0.6rem;
+    }
+
+    .news-compact-content {
+        font-size: 0.65rem;
+        line-height: 1.15;
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 320px) {
+    .hero-title {
+        font-size: 1.4rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.8rem;
+    }
+
+    .hero-description {
+        font-size: 0.75rem;
+    }
+
+    .hero-section {
+        padding: 0.5vh 0;
+    }
+
+    .hero-links {
+        gap: 0.3rem;
+    }
+
+    .hero-link {
+        padding: 0.3rem 0.5rem;
+        font-size: 0.7rem;
+    }
+
+    .section-title {
+        font-size: 1.1rem;
+    }
+
+    .paper-card {
+        padding: 0.8rem;
+    }
+
+    .interest-card {
+        padding: 0.6rem 0.4rem;
+    }
+
+    /* 超小屏幕新闻样式 */
+    .news-compact {
+        padding: 0.3rem;
+    }
+
+    .news-compact-item {
+        padding: 0.15rem 0;
+        font-size: 0.6rem;
+        gap: 0.25rem;
+    }
+
+    .news-compact-year {
+        min-width: 20px;
+        font-size: 0.55rem;
+    }
+
+    .news-compact-content {
+        font-size: 0.6rem;
+        line-height: 1.1;
+    }
+}
