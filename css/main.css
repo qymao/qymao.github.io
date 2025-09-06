@@ -146,6 +146,14 @@ h6 {
     font-weight: 600;
 }
 
+.hero-section h1 {
+    color: white !important;
+    background: none !important;
+    -webkit-background-clip: unset !important;
+    -webkit-text-fill-color: unset !important;
+    background-clip: unset !important;
+}
+
 h1 {
     font-size: 2.5rem;
     background: var(--primary-gradient);
@@ -199,5 +207,13 @@ p {
 
     h2 {
         font-size: 1.5rem;
+    }
+
+    .hero-section h1 {
+        color: white !important;
+        background: none !important;
+        -webkit-background-clip: unset !important;
+        -webkit-text-fill-color: unset !important;
+        background-clip: unset !important;
     }
 }
