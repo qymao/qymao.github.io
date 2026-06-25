@@ -431,10 +431,12 @@ a:hover {
 .publication-item:first-child { padding-top: 0; }
 
 .publication-visual {
-  width: clamp(220px, 24vw, 340px);
-  min-width: clamp(220px, 24vw, 340px);
-  min-height: 132px;
-  max-height: 190px;
+  width: 160px;
+  min-width: 160px;
+  min-height: 100px;
+  height: 100px;
+  max-height: 100px;
+  padding: 12px;
   border: 1px solid #e5e7eb;
   border-radius: 6px;
 }

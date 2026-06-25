@@ -9,7 +9,7 @@
   <meta property="og:description" content="Research in robot navigation, 3D perception, and autonomous systems.">
   <title>Qiuyu Mao · 毛秋宇</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style.css?v=20260625-1">
 </head>
 <body>
   <a class="skip-link" href="#content">Skip to content</a>
@@ -80,7 +80,15 @@
 
       <section id="experience" aria-labelledby="experience-title">
         <h2 id="experience-title">Experience</h2>
-        <p class="section-note">Experience details will be added here.</p>
+        <div class="education-list experience-list">
+          <article>
+            <time>Jul 2021 — 2022</time>
+            <div>
+              <h3>Autonomous Driving Intern</h3>
+              <p>SenseTime</p>
+            </div>
+          </article>
+        </div>
       </section>
 
       <section id="publications" aria-labelledby="publications-title">
@@ -139,15 +147,5 @@
     </main>
   </div>
 
-  <script>
-    const navLinks = [...document.querySelectorAll('.site-nav a[href^="#"]')];
-    const sections = navLinks.map(link => document.querySelector(link.getAttribute('href'))).filter(Boolean);
-    const observer = new IntersectionObserver(entries => {
-      const visible = entries.filter(entry => entry.isIntersecting).sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
-      if (!visible) return;
-      navLinks.forEach(link => link.classList.toggle('active', link.getAttribute('href') === `#${visible.target.id}`));
-    }, { rootMargin: '-20% 0px -65% 0px', threshold: [0, .25, .6] });
-    sections.forEach(section => observer.observe(section));
-  </script>
 </body>
 </html>
